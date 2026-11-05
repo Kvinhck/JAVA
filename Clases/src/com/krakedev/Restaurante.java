@@ -5,3 +5,4 @@ public class Restaurante {
 	public String direccion;
 	public float calificacion;
 }
+

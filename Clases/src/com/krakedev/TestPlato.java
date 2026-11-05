@@ -1,0 +1,72 @@
+package com.krakedev;
+
+public class TestPlato {
+
+	public static void main(String[] args) {
+		Plato platoA = new Plato();
+		Plato platoB = new Plato();
+		Plato platoC = new Plato();
+		
+		System.out.println("===============PLATO A===============");
+		
+		System.out.println("Nombre: "+platoA.nombre);
+		System.out.println("Tipo: "+platoA.tipo);
+		System.out.println("Precio: "+platoA.precio);
+		System.out.println("Disponible: "+platoA.disponible);
+		
+		System.out.println("===============PLATO B===============");
+		
+		System.out.println("Nombre: "+platoB.nombre);
+		System.out.println("Tipo: "+platoB.tipo);
+		System.out.println("Precio: "+platoB.precio);
+		System.out.println("Disponible: "+platoB.disponible);
+		
+		System.out.println("===============PLATO C===============");
+		
+		System.out.println("Nombre: "+platoC.nombre);
+		System.out.println("Tipo: "+platoC.tipo);
+		System.out.println("Precio: "+platoC.precio);
+		System.out.println("Disponible: "+platoC.disponible);
+		
+		System.out.println("=============================================");
+		
+		platoA.nombre = "Encebollado";
+		platoA.tipo = "Sopa";
+		platoA.precio = 4.5f;
+		platoA.disponible = true;
+		
+		platoB.nombre = "Conchas Asadas";
+		platoB.tipo = "Entrada";
+		platoB.precio = 13.99f;
+		platoB.disponible = true;
+		
+		platoC.nombre = "Menestra con Carne";
+		platoC.tipo = "Plato Fuerte";
+		platoC.precio = 7.00f;
+		platoC.disponible = false;
+		
+		System.out.println("===============PLATO A===============");
+		
+		System.out.println("Nombre: "+platoA.nombre);
+		System.out.println("Tipo: "+platoA.tipo);
+		System.out.println("Precio: "+platoA.precio);
+		System.out.println("Disponible: "+platoA.disponible);
+		
+		System.out.println("===============PLATO B===============");
+		
+		System.out.println("Nombre: "+platoB.nombre);
+		System.out.println("Tipo: "+platoB.tipo);
+		System.out.println("Precio: "+platoB.precio);
+		System.out.println("Disponible: "+platoB.disponible);
+		
+		System.out.println("===============PLATO C===============");
+		
+		System.out.println("Nombre: "+platoC.nombre);
+		System.out.println("Tipo: "+platoC.tipo);
+		System.out.println("Precio: "+platoC.precio);
+		System.out.println("Disponible: "+platoC.disponible);
+		
+		System.out.println("=============================================");
+	}
+
+}
